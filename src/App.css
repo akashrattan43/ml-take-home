@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.image-class {
+  width: 80px;
+}
+
+.badcomp{
+  width: 50%;
+   height: 100px; 
+   float: left;
+}
+.goodcomp {
+  margin-left: 50%; 
+  height: 100px;
+}
+
+.graph{
+  width: 70%;
+  margin-top: 30%;
+  margin-left: 10%;
+}
