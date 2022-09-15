@@ -6,15 +6,15 @@ import BadComponent from "./components/BadComponent";
 import GoodComponent from "./components/GoodComponent";
 import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
 
-const data = [
-  {img: 1, number: 3},
-  {img: 2, number: 3},
-  {img: 3, number: 6},
-];
 
 function App() {
   const [bad, setbad] = useState(badimg);
   const [good, setgood] = useState(goodimg);
+  const data = [
+    {img: 1, number: 3},
+    {img: 2, number: 3},
+    {img: 3, number: 6},
+  ];
 
   return (
     <div style={{ margin: 30 }}>
